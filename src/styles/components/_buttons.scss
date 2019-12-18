@@ -1,0 +1,39 @@
+.button {
+  position: relative;
+
+  background: transparent;
+  border: none;
+  padding: 15px 20px;
+
+  text-transform: uppercase;
+  font-family: "Izhitsa";
+  font-size: 14px;
+}
+
+.button-primary {
+  background: #dfb875;
+}
+
+.button-primary::after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: -6px;
+  transform: rotate(45deg);
+  border: 7px solid;
+  border-color: #fff;
+}
+
+.button-primary::before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  right: -6px;
+  transform: rotate(45deg);
+  border: 7px solid;
+  border-color: #fff;
+}
+
+.button-secondary {
+    
+}

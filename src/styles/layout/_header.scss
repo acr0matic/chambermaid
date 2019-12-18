@@ -1,0 +1,56 @@
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+}
+
+.logo {
+    border-right: 1px solid #e1e1e1;
+}
+
+.logo-text {
+  color: #aaaaaa;
+  width: 480px;
+}
+
+.logo-text span {
+    display: block;
+  }
+
+.callback {
+  display: flex;
+  align-items: center;
+}
+
+.phone-block {
+  margin-left: 16px;
+}
+
+.phone-block a {
+  display: block;
+}
+
+.phone-number {
+  color: #000000;
+
+  font-family: "21cent";
+  font-size: 21px;
+
+  text-decoration: none;
+}
+
+.request-call {
+  color: #dbb36b;
+
+  margin-top: 4px;
+
+  font-size: 13px;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+nav {
+    background-color: #543001;
+}
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.nav-item {
+    margin: 15px 0;
+}
+
+.nav-item:not(:last-child)::after {
+    content: "\002B";
+    color: #ffffff;
+    
+    margin-left: 20px;
+
+    font-size: 10px;
+}
+
+.nav-link {
+    color: #ffffff;
+
+    text-decoration: none;
+}
