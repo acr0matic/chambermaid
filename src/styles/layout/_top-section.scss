@@ -1,8 +1,5 @@
 #top-section {
-  background-image: url(../../dist/images/top-section-bg.jpg);
-  background-position: center;
-  background-size: cover;
-
+  @include background-image("../../dist/images/top-section-bg.jpg");
   padding: 60px 0;
 }
 
@@ -12,13 +9,9 @@
   justify-content: space-between;
 }
 
-.text-content {
-
-}
-
 .title,
 .subtitle {
-  color: #f9f1e4;
+  color: $main-white;
 
   font-family: "Izhitsa";
 }
@@ -27,10 +20,10 @@
   font-size: 60px;
 
   text-transform: uppercase;
-}
 
-.title span {
-  color: #febd79;
+  span {
+    color: #febd79;
+  }
 }
 
 .subtitle {
@@ -45,14 +38,12 @@
 
 .description {
   display: block;
-
-  color: #f9f1e4;
-
+  color: $main-white;
+  
   margin-bottom: 70px;
 
   font-weight: 300;
   line-height: 25px;
-
 }
 
 .icon-image {

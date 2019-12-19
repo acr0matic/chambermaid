@@ -1,28 +1,30 @@
 nav {
-    background-color: #543001;
+  background-color: #543001;
 }
-.navbar { 
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 
-    list-style: none;
+  list-style: none;
 }
 
-.nav-item {
+.nav {
+  &-item {
     margin: 15px 0;
-}
+  }
 
-.nav-item:not(:last-child)::after {
+  &-item:not(:last-child)::after {
     content: "\002B";
     color: #ffffff;
-    
+
     margin-left: 20px;
 
     font-size: 10px;
-}
+  }
 
-.nav-link {
+  &-link {
     color: #ffffff;
 
     text-decoration: none;
+  }
 }

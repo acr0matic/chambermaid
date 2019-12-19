@@ -7,17 +7,17 @@ header .content {
 }
 
 .logo {
-    border-right: 1px solid #e1e1e1;
-}
+  border-right: 1px solid #e1e1e1;
 
-.logo-text {
-  color: #aaaaaa;
-  width: 480px;
-}
+  &-text {
+    color: #aaaaaa;
+    width: 480px;
 
-.logo-text span {
-    display: block;
+    span {
+      display: block;
+    }
   }
+}
 
 .callback {
   display: flex;
@@ -26,10 +26,10 @@ header .content {
 
 .phone-block {
   margin-left: 16px;
-}
 
-.phone-block a {
-  display: block;
+  a {
+    display: block;
+  }
 }
 
 .phone-number {
@@ -49,8 +49,7 @@ header .content {
   font-size: 13px;
 }
 
-
 .container {
-    width: 1140px;
-    margin: auto;
+  width: 1140px;
+  margin: auto;
 }

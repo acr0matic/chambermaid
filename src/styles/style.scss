@@ -1,10 +1,13 @@
 @import "normalize";
 
-@import "base/base";
-@import "base/typography";
+@import "abstracts/variables",
+        "abstracts/mixins";
+
+@import "base/base",
+        "base/typography";
 
 @import "components/buttons";
 
-@import "layout/header";
-@import "layout/navigation";
-@import "layout/topSection";
+@import "layout/header",
+        "layout/navigation",
+        "layout/top-section";
