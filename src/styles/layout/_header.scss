@@ -1,51 +1,56 @@
-header .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
+  padding: 15px;
 
-  height: 70px;
-}
+  .logo {
+    &-text {
+      color: #aaaaaa;
+      width: 480px;
 
-.logo {
-  border-right: 1px solid #e1e1e1;
-
-  &-text {
-    color: #aaaaaa;
-    width: 480px;
-
-    span {
-      display: block;
+      span {
+        display: block;
+      }
     }
   }
-}
 
-.callback {
-  display: flex;
-  align-items: center;
-}
+  .callback {
+    display: flex;
+    align-items: center;
+  }
 
-.phone-block {
-  margin-left: 16px;
+  .phone {
+    &-block {
+      margin-left: 16px;
 
-  a {
-    display: block;
+      a {
+        display: block;
+      }
+    }
+
+    &-number {
+      color: #000000;
+
+      font-family: "21cent";
+      font-size: 21px;
+
+      text-decoration: none;
+    }
+
+    &-call {
+      color: #dbb36b;
+      margin-top: 4px;
+      font-size: 13px;
+    }
+  }
+
+  // Границы между элементами
+  .logo-text,
+  .callback {
+    padding-left: 25px;
+    border-left: 1px solid #e1e1e1;
+  }
+
+  .callback {
+    border-right: 1px solid #e1e1e1;
+    padding-right: 25px;
   }
 }
-
-.phone-number {
-  color: #000000;
-
-  font-family: "21cent";
-  font-size: 21px;
-
-  text-decoration: none;
-}
-
-.request-call {
-  color: #dbb36b;
-
-  margin-top: 4px;
-
-  font-size: 13px;
-}
-

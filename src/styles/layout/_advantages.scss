@@ -1,0 +1,44 @@
+#advantages {
+  @include background-image(
+    "../../dist/images/advantages-bg.jpg",
+    $position: center,
+    $cover: true
+  );
+
+  padding: 48px 0;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    color: $main-white;
+    font-size: 14px;
+    line-height: 25px;
+
+    width: 30%;
+    max-height: 100px;
+    margin: 20px 0;
+
+    border-right: 1px solid #5e564a;
+    border-top: 1px solid #5e564a;
+    border-bottom: 1px solid #5e564a;
+
+    &-text {
+      margin: 0;
+      padding: 25px 10px;
+      margin-left: 35px;
+    }
+
+    &-icon {
+      position: absolute;
+      left: -20px;
+    }
+  }
+}
