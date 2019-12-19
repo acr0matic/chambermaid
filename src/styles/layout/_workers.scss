@@ -1,0 +1,29 @@
+#workers {
+  padding: 0px 0;
+}
+
+.worker-card {
+  display: flex;
+  align-items: center;
+  width: 670px;
+  padding: 15px;
+  margin: 65px 0;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.123);
+
+  .biography {
+    margin-left: 20px;
+  }
+
+  .name {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .description {
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    margin: 0;
+  }
+}

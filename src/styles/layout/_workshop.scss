@@ -1,3 +1,8 @@
 #workshop {
-    margin: 120px 0;
+  @include background-image(
+    "../../dist/images/workshop-bg-second.jpg",
+    $position: center,
+    $cover: true
+  );
+  padding: 120px 0;
 }

@@ -1,0 +1,22 @@
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    opacity: 0.35;
+    transition: all .3s;
+}
+
+.swiper-button-prev {
+    left: 23%;
+}
+
+.swiper-button-next {
+    right: 23%;
+}
+
+.active {
+    opacity: 1;
+}
