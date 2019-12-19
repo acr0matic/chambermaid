@@ -1,19 +1,19 @@
 #top-section {
-  @include background-image("../../dist/images/top-section-bg.jpg");
+  @include background-image("../../dist/images/top-section-bg.jpg", $position: center, $cover: true);
   padding: 60px 0;
-}
 
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .title,
 .subtitle {
   color: $main-white;
 
-  font-family: "Izhitsa";
+  font-family: $primary-font;
 }
 
 .title {
