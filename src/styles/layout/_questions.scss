@@ -1,0 +1,30 @@
+#questions {
+  padding: 70px 0;
+
+  form {
+    min-width: 620px;
+    padding: 30px;
+
+    .input {
+      width: 265px;
+    }
+  }
+
+  .description {
+    color: #000000;
+  }
+
+  a {
+    text-decoration: none;
+    color: #febd79;
+  }
+
+
+  .form-move {
+    bottom: -75px;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}
