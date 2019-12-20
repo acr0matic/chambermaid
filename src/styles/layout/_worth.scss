@@ -1,4 +1,10 @@
 #worth {
+    @include background-image(
+        "../../dist/images/worth-bg.jpg",
+        $position: right,
+        $cover: false
+      );
+
     padding: 150px 0;
 
     .background {
