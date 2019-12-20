@@ -8,6 +8,7 @@
     opacity: 0.35;
     transition: all .3s;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     width: 52px;
@@ -28,6 +29,15 @@
     right: 23%;
     background-image: url("../../dist/images/arrow-right.png");
 }
+
+.swiper-button-prev-2 {
+    left: 16%;
+}
+
+.swiper-button-next-2 {
+    right: 16%;
+}
+
 
 .active {
     opacity: 1;

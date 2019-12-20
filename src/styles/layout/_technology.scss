@@ -1,0 +1,41 @@
+#technology {
+    @include background-image(
+        "../../dist/images/technology-bg.jpg",
+        $position: center,
+        $cover: true
+      );
+    padding: 100px 0;
+
+}
+
+.technology-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px;
+
+    .photo {
+        box-shadow: -15px 15px 0 0 #f5e8dc;
+    }
+  
+    .text {
+      margin-left: 20px;
+    }
+  
+    .title {
+      color: #000000;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+  
+    .description {
+      color: #000000;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 500;
+      max-width: 680px;
+      margin: 0;
+    }
+  }
+  
