@@ -42,12 +42,13 @@ p {
 
   .foreground {
     font-size: 60px;
+    max-width: 800px;
   }
 
   .background {
     position: absolute;
     bottom: -15px;
-    left: -85px;
+    left: -95px;
     font-size: 150px;
     color: #eeeeee;
     z-index: -1;
