@@ -1,0 +1,38 @@
+.input {
+    width: 100%;
+    height: 60px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.input-name {
+    background: url("../../dist/images/icons/name.png") no-repeat scroll 95% 50%;
+}
+
+.input-phone {
+    background: url("../../dist/images/icons/phone.png") no-repeat scroll 95% 50%;
+}
+
+.checkboxs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    input {
+        margin-right: 10px;
+    }
+
+    label {
+        font-size: 14px;
+        max-width: 100px;
+    }
+}
+

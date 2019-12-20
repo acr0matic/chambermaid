@@ -16,7 +16,7 @@ h4 {
 
 p {
   margin-bottom: 30px;
-  max-width: 710px;
+  line-height: 21px;
 }
 
 .container {
@@ -58,12 +58,14 @@ p {
   .title {
     color: #000000;
     text-transform: uppercase;
+    font-size: 50px;
   }
 
   .description {
     color: #febd79;
     font-family: $primary-font;
     font-size: 30px;
+    margin-top: 10px;
   }
 }
 
