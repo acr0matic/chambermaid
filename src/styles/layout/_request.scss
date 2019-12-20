@@ -1,0 +1,27 @@
+#request {
+  @include background-image(
+    "../../dist/images/request-bg.jpg",
+    $position: center,
+    $cover: true
+  );
+
+  padding: 90px 0 50px 0;
+
+  .container {
+    position: relative;
+  }
+
+  .title,
+  p {
+    color: #ffffff;
+  }
+
+  .form-move {
+      bottom: -75px;
+  }
+
+  button {
+      margin-top: 30px;
+  }
+
+}
