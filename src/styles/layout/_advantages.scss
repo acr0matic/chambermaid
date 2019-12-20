@@ -32,13 +32,31 @@
 
     &-text {
       margin: 0;
-      padding: 25px 10px;
-      margin-left: 35px;
+      padding: 25px 0px;
     }
 
     &-icon {
-      position: absolute;
+      position: relative;
+      top: 50%;
       left: -20px;
     }
   }
+}
+
+.card-image-wrapper::after,
+.card-image-wrapper::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  background: #5e564a;
+}
+
+.card-image-wrapper::after {
+  bottom: 0;
+}
+
+.card-image-wrapper::before {
+  top: 0;
 }

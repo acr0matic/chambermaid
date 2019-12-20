@@ -1,0 +1,17 @@
+.form {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 15px 15px 0 0 #f5e8dc, 2px 13px 35px 0px rgba(0, 0, 0, 0.096);
+}
+
+.form-title {
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-size: 18px;
+}
+
