@@ -1,7 +1,11 @@
 #choose {
     padding: 145px 0;
+    
+    .content {
+        position: relative;
+    }
 
     p {
-        max-width: 670px;
+        max-width: 630px;
     }
 }

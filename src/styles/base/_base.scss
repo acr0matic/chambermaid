@@ -51,6 +51,7 @@ p {
     font-size: 150px;
     color: #eeeeee;
     z-index: -1;
+    pointer-events: none;
   }
 }
 
@@ -75,4 +76,6 @@ p {
 
 .right-image {
   margin-left: 125px;
+  position: absolute;
+  right: 0;
 }
