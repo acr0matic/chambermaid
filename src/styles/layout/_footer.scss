@@ -1,0 +1,57 @@
+footer {
+  @include background-image(
+    "../../dist/images/footer-bg.jpg",
+    $position: center,
+    $cover: true
+  );
+
+  padding: 60px 0;
+
+  .wrapper {
+    align-items: flex-start;
+  }
+}
+
+.info {
+  max-width: 340px;
+  font-size: 13px;
+  color: #f7f7f7;
+  line-height: 21px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: #f7f7f7;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 10px;
+
+    a {
+      color: #f7f7f7;
+    }
+  }
+
+  .phone-number {
+    color: #ffffff;
+  }
+}
+
+.footer-column:not(:first-child) {
+  margin-left: 100px;
+}
+
+.politics {
+  margin-top: 85px;
+  color: #febd79;
+}

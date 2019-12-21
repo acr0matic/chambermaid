@@ -11,37 +11,36 @@ header {
       }
     }
   }
+}
 
-  .callback {
-    display: flex;
-    align-items: center;
-  }
+.callback {
+  display: flex;
+  align-items: center;
+}
 
-  .phone {
-    &-block {
-      margin-left: 16px;
+.phone {
+  &-block {
+    margin-left: 16px;
 
-      a {
-        display: block;
-      }
-    }
-
-    &-number {
-      color: #000000;
-
-      font-family: "21cent";
-      font-size: 21px;
-
-      text-decoration: none;
-    }
-
-    &-call {
-      color: #dbb36b;
-      margin-top: 4px;
-      font-size: 13px;
+    a {
+      display: block;
     }
   }
 
+  &-number {
+    color: #000000;
+
+    font-family: "21cent";
+    font-size: 21px;
+
+    text-decoration: none;
+  }
+
+  &-call {
+    color: #dbb36b;
+    margin-top: 4px;
+    font-size: 13px;
+  }
   // Границы между элементами
   .logo-text,
   .callback {
