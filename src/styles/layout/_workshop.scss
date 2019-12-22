@@ -11,3 +11,11 @@
     max-width: 710px;
   }
 }
+
+@media (max-width: 1024px) {
+  #workshop {
+    p {
+      max-width: 90%;
+    }
+  }
+}

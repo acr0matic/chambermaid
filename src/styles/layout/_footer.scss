@@ -26,6 +26,8 @@ footer {
   .title {
     font-size: 15px;
     font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 500;
     color: #f7f7f7;
     margin-bottom: 20px;
   }
@@ -55,4 +57,10 @@ footer {
 .politics {
   margin-top: 85px;
   color: #febd79;
+}
+
+@media (max-width: 1024px) {
+  .footer-column:not(:first-child) {
+    margin-left: 0;
+  }
 }

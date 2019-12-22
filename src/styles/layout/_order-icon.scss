@@ -1,20 +1,41 @@
 #order-icon {
-    background-color: #fbfbfb;
-    padding: 60px;
+  background-color: #fbfbfb;
+  padding: 60px;
 
-    .container {
-        position: relative;
-    }
+  .container {
+    position: relative;
+  }
 
-    .title {
-        font-family: $primary-font;
-    }
+  .title {
+    font-family: $primary-font;
+  }
 
-    .description {
-        margin-bottom: 60px;
+  .description {
+    margin-bottom: 60px;
+  }
+
+  p {
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #order-icon {
+    .wrapper {
+      flex-direction: column;
+      text-align: center;
     }
 
     p {
-        max-width: 570px;
+      margin: 0 auto 40px auto;
     }
+
+    .form {
+      width: 80%;
+    }
+
+    .form-move {
+      position: static;
+    }
+  }
 }

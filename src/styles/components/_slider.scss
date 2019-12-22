@@ -59,19 +59,13 @@
 }
 
 @media (max-width: 1280px) {
-  .swiper-button-prev-1 {
-    left: 20%;
-  }
-
-  .swiper-button-next-1 {
-    right: 20%;
-  }
-
+  .swiper-button-prev-1,
   .swiper-button-prev-2 {
-    left: 1%;
+    left: 2%;
   }
 
+  .swiper-button-next-1,
   .swiper-button-next-2 {
-    right: 1%;
+    right: 2%;
   }
 }

@@ -31,3 +31,12 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 1024px) {
+  #questions {
+    .wrapper {
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+}

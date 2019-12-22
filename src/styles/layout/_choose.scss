@@ -1,11 +1,19 @@
 #choose {
-    padding: 145px 0;
-    
-    .content {
-        position: relative;
-    }
+  padding: 145px 0;
 
+  .content {
+    position: relative;
+  }
+
+  p {
+    max-width: 630px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #choose {
     p {
-        max-width: 630px;
+      max-width: 55%;
     }
+  }
 }

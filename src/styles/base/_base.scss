@@ -105,6 +105,11 @@ p {
 }
 
 @media (max-width: 1280px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
   .section-title {
     .foreground {
       font-size: 50px;
@@ -118,11 +123,6 @@ p {
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: 980px;
-    margin: auto;
-  }
-
   .section-title {
     .foreground {
       font-size: 55px;
@@ -135,3 +135,4 @@ p {
     }
   }
 }
+

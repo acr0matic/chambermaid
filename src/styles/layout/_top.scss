@@ -19,38 +19,45 @@
   }
   .title {
     font-size: 60px;
-  
+
     text-transform: uppercase;
-  
+
     span {
       color: #febd79;
     }
   }
-  
+
   .subtitle {
     font-size: 24px;
     font-weight: 500;
     line-height: 35px;
   }
-  
+
   .separator {
     margin: 30px 0;
   }
-  
+
   .description {
     display: block;
     color: $main-white;
-  
+
     margin-bottom: 70px;
-  
+
     font-weight: 300;
     line-height: 25px;
   }
-
   .icon-image {
     box-shadow: 0 0 35px 0 #000000;
-    max-width: 100%;
   }
-  
 }
 
+@media (max-width: 1024px) {
+  #top {
+    .title {
+      font-size: 45px;
+    }
+    .icon-image {
+      width: 40%;
+    }
+  }
+}
