@@ -86,7 +86,7 @@ p {
   right: 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1650px) {
   .section-title {
     .foreground {
       font-size: 55px;
@@ -104,6 +104,21 @@ p {
   }
 }
 
+@media (max-width: 1366px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .section-title {
+
+    .background {
+      font-size: 95px;
+      left: -45px;
+    }
+  }
+}
+
 @media (max-width: 1280px) {
   .container {
     width: 90%;
@@ -116,7 +131,6 @@ p {
     }
 
     .background {
-      font-size: 110px;
       left: -45px;
     }
   }
@@ -129,10 +143,35 @@ p {
     }
 
     .background {
-      font-size: 85px;
+      font-size: 75px;
       left: -25px;
       bottom: 5px;
     }
   }
+  .left-image {
+    margin-right: 50px;
+  }
 }
 
+@media (max-width: 768px) {
+  .section-title {
+    text-align: center;
+
+    .foreground {
+      font-size: 50px;
+    }
+
+    .background {
+      display: none;
+    }
+  }
+
+  .left-image,
+  .right-image {
+    display: none;
+  }
+
+  p {
+    width: 100%;
+  }
+}

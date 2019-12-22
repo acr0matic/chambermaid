@@ -4,6 +4,8 @@
 
   .wrapper {
     margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
@@ -65,5 +67,18 @@
 @media (max-width: 1024px) {
   .article {
     padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .article {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+
+    .description {
+      font-size: 17px;
+    }
   }
 }

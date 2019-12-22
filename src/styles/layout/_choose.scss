@@ -17,3 +17,11 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  #choose {
+    p {
+      max-width: unset;
+    }
+  }
+}

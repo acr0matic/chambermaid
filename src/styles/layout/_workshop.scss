@@ -19,3 +19,11 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  #workshop {
+    p {
+      max-width: 100%;
+    }
+  }
+}

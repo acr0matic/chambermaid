@@ -45,4 +45,15 @@
     height: 310px;
     border: 1px solid #d3d3d3;
   }
+
+  &-image {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .i-card {
+    width: 30%;
+  }
 }

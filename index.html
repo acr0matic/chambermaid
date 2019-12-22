@@ -53,7 +53,9 @@
       <div class="container">
         <ul class="navbar">
           <li class="nav-item"><a href="#top" class="nav-link">Главная</a></li>
-          <li class="nav-item"><a href="#workshop" class="nav-link">О нас</a></li>
+          <li class="nav-item">
+            <a href="#workshop" class="nav-link">О нас</a>
+          </li>
           <li class="nav-item">
             <a href="#icons" class="nav-link">Иконы на заказ</a>
           </li>
@@ -63,13 +65,56 @@
           <li class="nav-item">
             <a href="#technology" class="nav-link">Мастер-классы</a>
           </li>
-          <li class="nav-item"><a href="#qustions" class="nav-link">Вопрос/Ответ</a></li>
-          <li class="nav-item"><a href="#articles" class="nav-link">Статьи</a></li>
-          <li class="nav-item"><a href="#footer" class="nav-link">Контакты</a></li>
+          <li class="nav-item">
+            <a href="#qustions" class="nav-link">Вопрос/Ответ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#articles" class="nav-link">Статьи</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link">Контакты</a>
+          </li>
         </ul>
       </div>
       <!-- /.container -->
     </nav>
+
+    <!-- БОКОВОЕ МЕНЮ -->
+    <div id="sidemenu">
+      <a href="javascript:void(0)" id="openbtn" onclick="closeNav()"
+        >&#9776;</a
+      >
+      <ul id="side-nav">
+        <li>
+          <a href="javascript:void(0)" id="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+        </li>
+        <li class="nav-item"><a href="#top" class="nav-link">Главная</a></li>
+        <li class="nav-item">
+          <a href="#workshop" class="nav-link">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a href="#icons" class="nav-link">Иконы на заказ</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Реставрация икон</a>
+        </li>
+        <li class="nav-item">
+          <a href="#technology" class="nav-link">Мастер-классы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#qustions" class="nav-link">Вопрос/Ответ</a>
+        </li>
+        <li class="nav-item">
+          <a href="#articles" class="nav-link">Статьи</a>
+        </li>
+        <li class="nav-item">
+          <a href="#footer" class="nav-link">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.sidemenu -->
 
     <!-- ОСНОВНОЙ КОНТЕНТ -->
     <main>
@@ -122,37 +167,40 @@
             src="../../dist/images/workshop-bg.jpg"
             alt=""
           />
-          <div class="content">
-            <div class="section-title">
-              <h1 class="foreground">О мастерской</h1>
-              <span class="background">О мастерской</span>
-            </div>
-            <p>
-              <strong>Иконописная Мастерская «Горница»</strong> при храме
-              преподобного Иосифа Волоцкого создаёт уникальные памятники
-              Церковного искусства.
-            </p>
-            <p>
-              Каждый человек, работающий в составе иконописной мастерской
-              является специалистом, который с большой ответственностью и
-              пониманием относятся к своему труду и выполняют свою работу на
-              должном высоком уровне. Все иконы создаются в строгом соответствии
-              с церковными канонами, в различных иконописных традициях, с
-              соблюдением древних технологий, и из натуральных материалов, что
-              служит гарантией долговечности всех произведений искусства. Иконы
-              нашей мастерской украшают множество храмов и монастырей по всему
-              миру.
-            </p>
-            <p>
-              К каждому заказчику найдем свой тонкий подход, учтем пожелания и
-              условия. В нашей мастерской создаются как монументальные, так и
-              удивительные по своей тонкости, высочайшего качества иконы на
-              долгую молитвенную память.
-            </p>
+          <div class="container">
+            <div class="content">
+              <div class="section-title">
+                <h1 class="foreground">О мастерской</h1>
+                <span class="background">О мастерской</span>
+              </div>
+              <p>
+                <strong>Иконописная Мастерская «Горница»</strong> при храме
+                преподобного Иосифа Волоцкого создаёт уникальные памятники
+                Церковного искусства.
+              </p>
+              <p>
+                Каждый человек, работающий в составе иконописной мастерской
+                является специалистом, который с большой ответственностью и
+                пониманием относятся к своему труду и выполняют свою работу на
+                должном высоком уровне. Все иконы создаются в строгом
+                соответствии с церковными канонами, в различных иконописных
+                традициях, с соблюдением древних технологий, и из натуральных
+                материалов, что служит гарантией долговечности всех произведений
+                искусства. Иконы нашей мастерской украшают множество храмов и
+                монастырей по всему миру.
+              </p>
+              <p>
+                К каждому заказчику найдем свой тонкий подход, учтем пожелания и
+                условия. В нашей мастерской создаются как монументальные, так и
+                удивительные по своей тонкости, высочайшего качества иконы на
+                долгую молитвенную память.
+              </p>
 
-            <button class="button button-secondary">Подробнее</button>
+              <button class="button button-secondary">Подробнее</button>
+            </div>
+            <!-- /.content -->
           </div>
-          <!-- /.content -->
+          <!-- /.container -->
         </div>
         <!-- /.wrapper -->
       </section>
