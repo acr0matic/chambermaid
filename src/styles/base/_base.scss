@@ -71,7 +71,6 @@ p {
     margin-top: 10px;
   }
 
-
   span {
     margin-bottom: 50px;
   }
@@ -107,7 +106,6 @@ p {
 
 @media (max-width: 1280px) {
   .section-title {
-
     .foreground {
       font-size: 50px;
     }
@@ -115,6 +113,25 @@ p {
     .background {
       font-size: 110px;
       left: -45px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 980px;
+    margin: auto;
+  }
+
+  .section-title {
+    .foreground {
+      font-size: 55px;
+    }
+
+    .background {
+      font-size: 85px;
+      left: -25px;
+      bottom: 5px;
     }
   }
 }

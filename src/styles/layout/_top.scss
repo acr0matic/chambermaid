@@ -1,4 +1,4 @@
-#top-section {
+#top {
   @include background-image(
     "../../dist/images/top-section-bg.jpg",
     $position: center,
@@ -49,6 +49,7 @@
 
   .icon-image {
     box-shadow: 0 0 35px 0 #000000;
+    max-width: 100%;
   }
   
 }

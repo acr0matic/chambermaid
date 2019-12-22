@@ -2,14 +2,27 @@ header {
   padding: 15px;
 
   .logo {
+    padding-right: 25px;
     &-text {
       color: #aaaaaa;
-      width: 480px;
+      width: 40%;
 
       span {
         display: block;
       }
     }
+  }
+  
+  // Границы между элементами
+  .logo-text,
+  .callback {
+    padding-left: 25px;
+    border-left: 1px solid #e1e1e1;
+  }
+
+  .callback {
+    border-right: 1px solid #e1e1e1;
+    padding-right: 25px;
   }
 }
 
@@ -40,16 +53,5 @@ header {
     color: #dbb36b;
     margin-top: 4px;
     font-size: 13px;
-  }
-  // Границы между элементами
-  .logo-text,
-  .callback {
-    padding-left: 25px;
-    border-left: 1px solid #e1e1e1;
-  }
-
-  .callback {
-    border-right: 1px solid #e1e1e1;
-    padding-right: 25px;
   }
 }

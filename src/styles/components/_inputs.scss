@@ -1,38 +1,85 @@
 .input {
-    width: 100%;
-    height: 60px;
-    padding-left: 25px;
-    margin-bottom: 10px;
-    border: 1px solid #dcdcdc;
+  width: 100%;
+  height: 60px;
+  padding-left: 25px;
+  padding-right: 45px;
+  margin-bottom: 10px;
+  border: 1px solid #dcdcdc;
 }
 
 .input-name {
-    background: url("../../dist/images/icons/name.png") no-repeat scroll 95% 50%;
+  background: url("../../dist/images/icons/name.png") no-repeat scroll 95% 50%;
 }
 
 .input-phone {
-    background: url("../../dist/images/icons/phone.png") no-repeat scroll 95% 50%;
+  background: url("../../dist/images/icons/phone.png") no-repeat scroll 95% 50%;
 }
 
-.checkboxs {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    width: 100%;
+.checkboxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+
+.checkbox label {
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+
+.checkbox label::before {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #dcdcdc;
+  left: -20px;
+  top: 3px;
+}
+
+.checkbox label::after {
+  height: 8px;
+  width: 8px;
+  background: #efcc8e;
+  left: -16px;
+  top: 7px;
+}
+
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+
+  .checkbox input[type="checkbox"] + label::after {
+    content: none;
+  }
+  .checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+  }
 }
 
 .checkbox {
-    display: flex;
-    align-items: center;
-    text-align: left;
+  display: flex;
+  align-items: center;
+  text-align: left;
 
-    input {
-        margin-right: 10px;
-    }
+  input {
+    margin-right: 10px;
+  }
 
-    label {
-        font-size: 14px;
-        max-width: 100px;
-    }
+  label {
+    font-size: 14px;
+    max-width: 100px;
+  }
 }
-
