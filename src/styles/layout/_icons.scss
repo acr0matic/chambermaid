@@ -1,5 +1,5 @@
 #icons {
-  padding: 155px;
+  padding: 155px 0;
 }
 
 .i-cards {
@@ -15,6 +15,11 @@
     margin-bottom: 40px;
     text-align: center;
 
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+
     .separator {
       width: 25%;
       margin: 15px 0 5px 0;
@@ -27,11 +32,10 @@
     &:hover .i-image-wrapper {
       border: none;
     }
+  }
 
-    &-title {
-      font-weight: 600;
-      text-decoration: none;
-    }
+  &-title {
+    font-weight: 600;
   }
 
   &-image-wrapper {

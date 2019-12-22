@@ -60,6 +60,7 @@ p {
   .title {
     color: #000000;
     text-transform: uppercase;
+    font-family: $primary-font;
     font-size: 50px;
   }
 
@@ -69,6 +70,7 @@ p {
     font-size: 30px;
     margin-top: 10px;
   }
+
 
   span {
     margin-bottom: 50px;
@@ -83,4 +85,36 @@ p {
   margin-left: 125px;
   position: absolute;
   right: 0;
+}
+
+@media (max-width: 1440px) {
+  .section-title {
+    .foreground {
+      font-size: 55px;
+    }
+
+    .background {
+      font-size: 120px;
+      left: -65px;
+    }
+  }
+
+  .left-image,
+  .right-image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section-title {
+
+    .foreground {
+      font-size: 50px;
+    }
+
+    .background {
+      font-size: 110px;
+      left: -45px;
+    }
+  }
 }
