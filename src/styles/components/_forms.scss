@@ -41,3 +41,20 @@
   justify-content: space-between;
   width: 100%;
 }
+
+@media (max-width: 425px) {
+  .form {
+    min-width: 335px;
+    box-shadow: 2px 13px 35px 0px rgba(0, 0, 0, 0.096);
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .form {
+    min-width: 300px;
+  }
+}

@@ -40,3 +40,11 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  #questions {
+    form {
+      min-width: 0;
+    }
+  }
+}

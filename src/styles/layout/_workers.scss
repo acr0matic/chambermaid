@@ -33,3 +33,17 @@
     width: 80%;
   }
 }
+
+@media (max-width: 425px) {
+  .worker-card {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+  }
+
+  .name {
+    margin-top: 15px;
+  }
+
+}

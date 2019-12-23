@@ -60,11 +60,10 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  
   #footer {
     .wrapper {
       flex-wrap: wrap;
-    }  
+    }
   }
 
   .footer-column:not(:first-child) {
@@ -73,7 +72,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   #footer {
     .wrapper {
       align-items: center;
@@ -108,6 +106,14 @@ footer {
 
     .callback {
       margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  #footer {
+    .footer-column:nth-child(2) .footer-column:nth-child(3) {
+      width: 90%;
     }
   }
 }

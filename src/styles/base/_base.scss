@@ -111,7 +111,6 @@ p {
   }
 
   .section-title {
-
     .background {
       font-size: 95px;
       left: -45px;
@@ -173,5 +172,28 @@ p {
 
   p {
     width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 95%;
+    text-align: center;
+  }
+
+  .section-title {
+    .foreground {
+      font-size: 40px;
+    }
+  }
+
+  .section-form-title {
+    .title {
+      font-size: 30px;
+    }
+
+    .description {
+      font-size: 20px;
+    }
   }
 }

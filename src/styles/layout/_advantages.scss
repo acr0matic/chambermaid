@@ -72,3 +72,29 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  #advantages {
+    .card {
+      width: 90%;
+      padding-right: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card:last-child {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #advantages {
+    .card {
+      width: 85%;
+    }
+    .card:last-child {
+      width: 85%;
+    }
+  }
+}

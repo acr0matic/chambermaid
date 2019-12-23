@@ -83,3 +83,19 @@
     max-width: 100px;
   }
 }
+
+@media (max-width: 425px) {
+  .checkboxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkbox {
+    margin-bottom: 15px;
+  }
+
+  .checkbox label {
+    max-width: 100%;
+  }
+
+}

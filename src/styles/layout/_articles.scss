@@ -82,3 +82,13 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .article {
+    max-width: 90%;
+  }
+
+  .article:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}

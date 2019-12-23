@@ -69,3 +69,11 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  #top {
+    .icon-image {
+      display: none;
+    }
+  }
+}
