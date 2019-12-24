@@ -22,20 +22,29 @@
 
 .swiper-button-prev {
   left: 23%;
-  background-image: url("../../dist/images/arrow-left.png");
+  background-image: url("../../dist/images/arrow-left.svg");
+
+  &:hover {
+    background: url("../../dist/images/arrow-left-hover.svg");
+  }
 }
 
 .swiper-button-next {
   right: 23%;
-  background-image: url("../../dist/images/arrow-right.png");
+  background: url("../../dist/images/arrow-right.svg");
+
+  &:hover {
+    background: url("../../dist/images/arrow-right-hover.svg");
+  }
 }
 
 .swiper-button-prev-2 {
-  left: 16%;
+  left: 3%;
+
 }
 
 .swiper-button-next-2 {
-  right: 16%;
+  right: 3%;
 }
 
 .active {

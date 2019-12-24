@@ -112,8 +112,9 @@ footer {
 
 @media (max-width: 425px) {
   #footer {
-    .footer-column:nth-child(2) .footer-column:nth-child(3) {
-      width: 90%;
+    .footer-column:nth-child(2),
+    .footer-column:nth-child(3) {
+      display: none;
     }
   }
 }

@@ -31,10 +31,11 @@
   flex-direction: column;
 
   position: fixed;
+  top: 0;
   right: 0;
   transform: translateX(101%);
 
-  background: rgba(0, 0, 0, 0.897);
+  background: rgba(0, 0, 0, 0.9);
   width: 70%;
   height: 100vh;
 

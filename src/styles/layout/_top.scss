@@ -1,9 +1,7 @@
 #top {
-  @include background-image(
-    "../../dist/images/top-section-bg.jpg",
-    $position: center,
-    $cover: true
-  );
+  background-image: url("../../dist/images/top-section-bg.jpg");
+  background-position-x: center;
+  background-position-y: 100%;
   padding: 60px 0;
 
   .content {
@@ -72,6 +70,14 @@
 
 @media (max-width: 425px) {
   #top {
+    .title {
+      font-size: 32px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+    }
+
     .icon-image {
       display: none;
     }

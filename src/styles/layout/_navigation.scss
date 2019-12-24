@@ -24,8 +24,9 @@ nav {
   &-link {
     color: #ffffff;
 
+    font-family: "FuturaPT-Light";
     text-decoration: none;
-    transition: all 0.3ы;
+    transition: all 0.3s;
 
     &:hover {
       color: $primary-button-color;

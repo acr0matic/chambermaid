@@ -4,10 +4,11 @@
   .logo {
     padding-right: 25px;
     &-text {
-      color: #aaaaaa;
+      color: rgba(49, 49, 49, 0.54);
       width: 40%;
 
       span {
+        font-size: 13px;
         display: block;
       }
     }
@@ -44,6 +45,7 @@
     color: #000000;
 
     font-family: "21cent";
+    font-weight: bold;
     font-size: 21px;
 
     text-decoration: none;

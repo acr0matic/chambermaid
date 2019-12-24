@@ -58,3 +58,16 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  #technology {
+    padding: 50px 0;
+  }
+  
+  .technology-card {
+    .photo {
+      min-width: 335px;
+      box-shadow: 2px 13px 35px 0px rgba(0, 0, 0, 0.096);
+    }
+  }
+}
