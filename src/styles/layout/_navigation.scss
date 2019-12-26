@@ -1,5 +1,6 @@
 nav {
   background-color: #543001;
+  font-family: "FuturaPT-Light";
 }
 .navbar {
   display: flex;
@@ -24,7 +25,6 @@ nav {
   &-link {
     color: #ffffff;
 
-    font-family: "FuturaPT-Light";
     text-decoration: none;
     transition: all 0.3s;
 
@@ -32,6 +32,28 @@ nav {
       color: $primary-button-color;
     }
   }
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #543001;
+  left: -9px;
+  list-style: none;
+  padding: 0 10px;
+
+  .nav-item::after {
+    content: "";
+    margin: 0px;
+  }
+}
+
+.dropdown-selector {
+  position: relative;
+}
+
+.dropdown-selector:hover .dropdown {
+  display: block;
 }
 
 @media (max-width: 1024px) {
