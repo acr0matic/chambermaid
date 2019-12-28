@@ -21,6 +21,7 @@
     width: 20%;
     height: 280px;
     object-fit: contain;
+    cursor: pointer;
   }
 
   .button {
@@ -57,6 +58,10 @@
 }
 
   @media (max-width: 375px) {
-
+    #gallery {
+        .i-image {
+          width: 60%;
+        }
+    }
   }
 
